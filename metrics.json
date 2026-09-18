@@ -1,0 +1,29 @@
+{
+  "trained_at": "2026-09-01 14:40",
+  "total_samples": 40,
+  "spam_count": 20,
+  "ham_count": 20,
+  "cv_accuracy_mean": 0.95,
+  "cv_accuracy_std": 0.0612,
+  "cv_precision_mean": 0.92,
+  "cv_precision_std": 0.098,
+  "cv_recall_mean": 1.0,
+  "cv_recall_std": 0.0,
+  "cv_f1_mean": 0.9556,
+  "cv_f1_std": 0.0544,
+  "test_accuracy": 1.0,
+  "test_precision": 1.0,
+  "test_recall": 1.0,
+  "test_f1": 1.0,
+  "confusion_matrix": [
+    [
+      4,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "model_type": "Multinomial Naive Bayes"
+}
